@@ -1,1 +1,1 @@
-read me
+This is repository for my DevOps engineer course in int!
