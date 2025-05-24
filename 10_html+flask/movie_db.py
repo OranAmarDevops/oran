@@ -1,21 +1,42 @@
-#import argparse
-import requests
+from flask import Flask, request ,render_template, jsonify, send_from_directory
 import json
 import os
+import requests
 
 search_file = 'search.json'
-
-# Parse arguments
-#parser = argparse.ArgumentParser(description="Get movie information")
-#parser.add_argument("-s", "--search", type=str, required=True, help="The movie to search for")
-#search = parser.parse_args().search
+app = Flask(__name__)
 
 # Initialize JSON file if it does not exist
 if not os.path.exists(search_file):
     with open(search_file, "w") as f:
         json.dump({}, f)
 
-def save_locally(search_file, search, data):
+@app.route('/', methods=['GET'])
+def home():
+    return render_template('main.html'), 200
+
+@app.route('/<filename>', methods=['GET'])
+def server_static(filename):
+    allowed_extensions = ('.js', '.css', '.png', '.jpg', '.jpeg', '.gif')
+    if filename.endswith(allowed_extensions):
+        return send_from_directory('static', filename)
+    return "Not Found", 404
+
+@app.route('/get_movies', methods=['GET'])
+def get_movies():
+    search = request.args.get('search') 
+    
+    if not search:
+        return jsonify({"Error": "Missing 'search' parameter"}), 400
+    
+    result = movie_search(search)
+    return jsonify(result)  
+
+@app.route('/health', methods=['GET'])
+def check_health():
+    return jsonify(status="ok")
+
+def save_locally(search, data):
     """Save search result data locally."""
     with open(search_file, "r") as f:
         local_data = json.load(f)
@@ -51,7 +72,6 @@ def movie_search(pattern):
         "x-rapidapi-key": "my_key",
         "x-rapidapi-host": "movie-database-alternative.p.rapidapi.com"
     }
-
     try:
         response = requests.get(url, headers=headers, params=querystring)
         response.raise_for_status()  # Raise an error for HTTP codes 4xx/5xx
@@ -61,13 +81,15 @@ def movie_search(pattern):
             return {"Error": "No results found in API response."}
         
         # Process and format API response
-        result = {movie['Title']: movie['Year'] for movie in api_resp['Search']}
+        result = {movie.get('Title', 'Unknown'): movie.get('Year', 'Unknown') for movie in api_resp['Search']}
         
         # Save API result locally
-        save_locally(search_file, pattern, result)
+        save_locally(pattern, result)
         return result
     
     except requests.exceptions.RequestException as e:
+        
         return {"Error": f"API request failed: {str(e)}"}
 
-#print(movie_search(search))
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080, debug=True)
