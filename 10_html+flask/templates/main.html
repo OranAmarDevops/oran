@@ -1,13 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ title }}</title>
+    <title>Movie Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        input, button {
+            padding: 8px;
+            font-size: 16px;
+            margin-right: 5px;
+        }
+
+        #results {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+
+        .error {
+            color: red;
+        }
+
+        #clearButton {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 <body>
     <h1>Movie Search</h1>
-    <form action="/movies" method="get">
-        <input type="text" name="keyword" placeholder="Enter movie name">
-        <button type="submit">Search</button>
-    </form>
+
+    <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Enter movie name" required>
+    <button type="submit">Search</button>
+    <button type="button" id="clearButton">Clear Results</button>
+</form>
+
+<div id="results"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('searchForm');
+        const input = document.getElementById('searchInput');
+        const resultsDiv = document.getElementById('results');
+        const clearButton = document.getElementById('clearButton');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const keyword = input.value.trim();
+            if (!keyword) return;
+
+            resultsDiv.innerHTML = 'Searching...';
+
+            try {
+                const res = await fetch(`/get_movies?search=${encodeURIComponent(keyword)}`);
+                const data = await res.json();
+
+                if (data.Error) {
+                    resultsDiv.innerHTML = `<p class="error">${data.Error}</p>`;
+                } else {
+                    const listItems = Object.entries(data).map(
+                        ([title, year]) => `<li><strong>${title}</strong>: ${year}</li>`
+                    ).join('');
+                    resultsDiv.innerHTML = `<ul>${listItems}</ul>`;
+                }
+
+            } catch (err) {
+                resultsDiv.innerHTML = `<p class="error">Error fetching data.</p>`;
+                console.error(err);
+            }
+        });
+
+        clearButton.addEventListener('click', () => {
+            resultsDiv.innerHTML = '';
+            input.value = '';
+        });
+    });
+</script>
 </body>
 </html>
