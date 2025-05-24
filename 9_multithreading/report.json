@@ -1,0 +1,670 @@
+[
+    {
+        "url": "googletagmanager.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "github.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-02-05 23:59:59"
+    },
+    {
+        "url": "apple.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-24 17:59:28"
+    },
+    {
+        "url": "twitter.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "linkedin.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-09-16 23:59:59"
+    },
+    {
+        "url": "microsoft.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-11-08 05:02:25"
+    },
+    {
+        "url": "vimeo.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-17 11:14:16"
+    },
+    {
+        "url": "bit.ly",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-25 23:59:59"
+    },
+    {
+        "url": "pinterest.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-07 23:59:59"
+    },
+    {
+        "url": "google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "wikipedia.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-17 23:59:59"
+    },
+    {
+        "url": "en.wikipedia.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-17 23:59:59"
+    },
+    {
+        "url": "apps.apple.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-08 18:57:46"
+    },
+    {
+        "url": "adobe.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-05 23:59:59"
+    },
+    {
+        "url": "facebook.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-05-30 23:59:59"
+    },
+    {
+        "url": "api.whatsapp.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "wordpress.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-30 19:43:58"
+    },
+    {
+        "url": "maps.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "goo.gl",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "instagram.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-05-30 23:59:59"
+    },
+    {
+        "url": "plus.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "youtube.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "wordpress.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-10 19:45:23"
+    },
+    {
+        "url": "x.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "whatsapp.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-05-30 23:59:59"
+    },
+    {
+        "url": "docs.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "youtu.be",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "amazon.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "player.vimeo.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-17 11:14:16"
+    },
+    {
+        "url": "tiktok.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-15 23:59:59"
+    },
+    {
+        "url": "macromedia.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "policies.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "mozilla.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-04 21:13:07"
+    },
+    {
+        "url": "itunes.apple.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-08 18:57:46"
+    },
+    {
+        "url": "forms.gle",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "nih.gov",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "europa.eu",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-10 12:06:07"
+    },
+    {
+        "url": "drive.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "yahoo.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "blogspot.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:56"
+    },
+    {
+        "url": "miit.gov.cn",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "github.io",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-07 23:59:59"
+    },
+    {
+        "url": "wa.me",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-05-30 23:59:59"
+    },
+    {
+        "url": "apache.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-19 04:57:43"
+    },
+    {
+        "url": "t.me",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-11-07 19:51:28"
+    },
+    {
+        "url": "gravatar.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-14 19:43:59"
+    },
+    {
+        "url": "medium.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-19 19:46:44"
+    },
+    {
+        "url": "nginx.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-31 14:54:56"
+    },
+    {
+        "url": "maps.app.goo.gl",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "cloudflare.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-27 01:03:42"
+    },
+    {
+        "url": "tumblr.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-26 23:59:59"
+    },
+    {
+        "url": "play.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "archive.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-01-24 14:18:32"
+    },
+    {
+        "url": "qq.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "flickr.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-02-02 23:59:59"
+    },
+    {
+        "url": "spotify.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-01-06 23:59:59"
+    },
+    {
+        "url": "soundcloud.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-16 10:31:57"
+    },
+    {
+        "url": "w3.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-20 00:57:24"
+    },
+    {
+        "url": "open.spotify.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-15 16:56:50"
+    },
+    {
+        "url": "ec.europa.eu",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-03 13:21:01"
+    },
+    {
+        "url": "reddit.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-25 23:59:59"
+    },
+    {
+        "url": "office.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-11 10:41:16"
+    },
+    {
+        "url": "nytimes.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-14 23:59:59"
+    },
+    {
+        "url": "forbes.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-02-08 18:55:11"
+    },
+    {
+        "url": "zoom.us",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-02-11 23:59:59"
+    },
+    {
+        "url": "httpd.apache.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-01 05:58:11"
+    },
+    {
+        "url": "f5.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-11-21 21:51:37"
+    },
+    {
+        "url": "t.co",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-20 12:48:10"
+    },
+    {
+        "url": "creativecommons.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-14 07:14:29"
+    },
+    {
+        "url": "sciencedirect.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "baidu.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-03 23:59:59"
+    },
+    {
+        "url": "wixsite.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "www.ncbi.nlm.nih.gov",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-04-14 14:02:30"
+    },
+    {
+        "url": "sites.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:09"
+    },
+    {
+        "url": "who.int",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-14 10:02:43"
+    },
+    {
+        "url": "sourceforge.net",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-29 19:17:58"
+    },
+    {
+        "url": "issuu.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "live.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-12-11 23:59:59"
+    },
+    {
+        "url": "tinyurl.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-17 05:52:06"
+    },
+    {
+        "url": "m.facebook.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-05-30 23:59:59"
+    },
+    {
+        "url": "nginx.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "youtube-nocookie.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "theguardian.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-18 10:57:40"
+    },
+    {
+        "url": "paypal.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-06 23:59:59"
+    },
+    {
+        "url": "beian.miit.gov.cn",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "researchgate.net",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "dropbox.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-12-08 23:59:59"
+    },
+    {
+        "url": "doi.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-30 13:33:35"
+    },
+    {
+        "url": "web.archive.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-01-24 14:18:32"
+    },
+    {
+        "url": "cnn.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-05-31 15:27:49"
+    },
+    {
+        "url": "opera.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-01-09 23:59:59"
+    },
+    {
+        "url": "bbc.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-19 06:26:04"
+    },
+    {
+        "url": "bbc.co.uk",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-19 06:26:04"
+    },
+    {
+        "url": "wiley.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "reuters.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "vk.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-18 14:26:05"
+    },
+    {
+        "url": "bing.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-09-10 18:35:35"
+    },
+    {
+        "url": "wikimedia.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-17 23:59:59"
+    },
+    {
+        "url": "harvard.edu",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-31 12:29:18"
+    },
+    {
+        "url": "imdb.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "googleblog.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:28"
+    },
+    {
+        "url": "washingtonpost.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "weebly.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 17:02:05"
+    },
+    {
+        "url": "shopify.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-24 15:42:05"
+    },
+    {
+        "url": "mit.edu",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-28 23:59:59"
+    },
+    {
+        "url": "php.net",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-26 04:37:29"
+    },
+    {
+        "url": "bloomberg.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "wsj.com",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "springer.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-31 03:27:48"
+    },
+    {
+        "url": "accounts.google.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:30:05"
+    },
+    {
+        "url": "un.org",
+        "status_code": "FAILED"
+    },
+    {
+        "url": "cdc.gov",
+        "status_code": "OK",
+        "certificate_status": "failed",
+        "certificate_error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)"
+    },
+    {
+        "url": "workspaceupdates.googleblog.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-22 19:28:28"
+    },
+    {
+        "url": "nature.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-31 04:20:00"
+    },
+    {
+        "url": "oracle.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-03-04 23:59:59"
+    },
+    {
+        "url": "ibm.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-18 23:59:59"
+    },
+    {
+        "url": "gnu.org",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-11 00:52:17"
+    },
+    {
+        "url": "stanford.edu",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2026-04-24 23:59:59"
+    },
+    {
+        "url": "amazonaws.com",
+        "status_code": "OK",
+        "certificate_status": "failed",
+        "certificate_error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+    },
+    {
+        "url": "weibo.com",
+        "status_code": "OK",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-07 23:59:59"
+    }
+]

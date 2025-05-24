@@ -1,0 +1,218 @@
+{
+    "hulk": [
+        {
+            "Title": "The Incredible Hulk",
+            "Year": "2008",
+            "imdbID": "tt0800080",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Hulk",
+            "Year": "2003",
+            "imdbID": "tt0286716",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNTQxMmVlMTItMGFjYi00MTc2LWE5MzMtYjFhZWJmZGY0MTY5XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "She-Hulk: Attorney at Law",
+            "Year": "2022",
+            "imdbID": "tt10857160",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNjg4ZTQ1MjctNzEyMS00YWM2LTk1ZTQtNDU3ZDJjNjhhMDhkXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Incredible Hulk",
+            "Year": "1977–1982",
+            "imdbID": "tt0077031",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYjI5NzkxNDItYmYyNi00NGYzLWJiNmEtY2Q3OGUwYWE0YWJjXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Planet Hulk",
+            "Year": "2010",
+            "imdbID": "tt1483025",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYmFlNTNhNjktNDQ4NC00ZmVhLTg2NmYtOWExMmI0MzQ1ODFmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Hulk Vs.",
+            "Year": "2009",
+            "imdbID": "tt1325753",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTc1NzMzMzU4Nl5BMl5BanBnXkFtZTcwNTQ3NDYwNQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Incredible Hulk",
+            "Year": "1996–1998",
+            "imdbID": "tt0115215",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BOGZkM2Y1ZDgtOTM1Yy00ZGE5LTk2MzItNDQ0YzcwNGExZDcyXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Incredible Hulk Returns",
+            "Year": "1988",
+            "imdbID": "tt0095368",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDA3M2U2NzYtODAyMS00YTBmLWE0YjAtOGI5M2YxY2M1ODVkXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Hulk and the Agents of S.M.A.S.H.",
+            "Year": "2013–2015",
+            "imdbID": "tt2455514",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1MzIxMzM4Nl5BMl5BanBnXkFtZTcwMTg3Mzc5OQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Trial of the Incredible Hulk",
+            "Year": "1989",
+            "imdbID": "tt0098512",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYWVlNWExMjAtYWNlMC00ODVkLTllMzMtNWM2NTRiYjYxM2UyXkEyXkFqcGc@._V1_SX300.jpg"
+        }
+    ],
+    "spiderman": [
+        {
+            "Title": "Italian Spiderman",
+            "Year": "2007",
+            "imdbID": "tt2705436",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYWNiMmNlNmQtZTI2MS00MzAxLTgxM2QtNDY3ZGQxNDMwZDgzXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Superman, Spiderman or Batman",
+            "Year": "2011",
+            "imdbID": "tt2084949",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ4MzcxNDU3N15BMl5BanBnXkFtZTgwOTE1MzMxNzE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Spiderman",
+            "Year": "1990",
+            "imdbID": "tt0100669",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "The Amazing Spiderman 2 Webb Cut",
+            "Year": "2021",
+            "imdbID": "tt18351128",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzI0MmQyMzYtZDAzNi00ZWZiLWFjMTgtNzQwOTRjYTFlM2Y3XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Spiderman the Verse",
+            "Year": "2019–",
+            "imdbID": "tt12122034",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNDBjNWY3OWYtMjk2ZS00NjA2LWE0NzAtOWQxNzBhNjZlMGYyXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Spiderman",
+            "Year": "2010",
+            "imdbID": "tt1785572",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "Spiderman in Cannes",
+            "Year": "2016",
+            "imdbID": "tt5978586",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZjc4MDYyMWQtNjM5MS00NzQxLTg5MTktMjI1MTVmNDNmNTA4XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Spiderman and Grandma",
+            "Year": "2009",
+            "imdbID": "tt1433184",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjE3Mzg0MjAxMl5BMl5BanBnXkFtZTcwNjIyODg5Mg@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Fighting, Flying and Driving: The Stunts of Spiderman 3",
+            "Year": "2007",
+            "imdbID": "tt1132238",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNTI3NDE1ZmEtMTRiMS00YTY4LTk0OGItNjY4YmI0MDM4OGM4XkEyXkFqcGdeQXVyODE2NDgwMzM@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Discount Spiderman 2",
+            "Year": "2018",
+            "imdbID": "tt9146610",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BY2U4NjY2YTQtZDFiYS00YTk2LTk5NDItMWVlNmIwZjYyZmE5XkEyXkFqcGc@._V1_SX300.jpg"
+        }
+    ],
+    "wonder": [
+        {
+            "Title": "Wonder Woman",
+            "Year": "2017",
+            "imdbID": "tt0451279",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjEzYmZkNjktODBmYi00NzNkLWIzMjItMjhkMWZiZTZlN2MwXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Wonder Woman 1984",
+            "Year": "2020",
+            "imdbID": "tt7126948",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYTdkYjI0M2ItMmUxZi00YjU1LTgwM2ItODgxNDY0ODZhZDQzXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Wonder",
+            "Year": "2017",
+            "imdbID": "tt2543472",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYmFkYTlhNWUtMzliMS00ODIyLThlMmUtOGQ0N2RmOTg4YjJiXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Wonder Boys",
+            "Year": "2000",
+            "imdbID": "tt0185014",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BOTJmNmIxMTYtNzA4Ni00N2VhLWIxYjYtMDFlNDQ5NjcxZTBmXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Mr. Magorium's Wonder Emporium",
+            "Year": "2007",
+            "imdbID": "tt0457419",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxYTI5M2MtMjk1MC00MTE4LTgyM2QtNWUzM2UwNGJhYzE1XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Wonder",
+            "Year": "2022",
+            "imdbID": "tt9288822",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNDU5NzljODgtNjg1OS00NWZlLTg3MzEtMDU0YWI2ZjEwNzk2XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Wonder Years",
+            "Year": "1988–1993",
+            "imdbID": "tt0094582",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDE1MTM2NzAtY2U3MC00OGViLThmODEtY2UzMWVlZWYwYjU1XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Wonder Wheel",
+            "Year": "2017",
+            "imdbID": "tt5825380",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTA2NjAyMDIzMzleQTJeQWpwZ15BbWU4MDg1NTEwNjMy._V1_SX300.jpg"
+        },
+        {
+            "Title": "To the Wonder",
+            "Year": "2012",
+            "imdbID": "tt1595656",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNGYyYmI2YjQtYTkyNy00NzQ0LTliNmYtNzdlNmZkNmZkMDQ1XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Professor Marston & the Wonder Women",
+            "Year": "2017",
+            "imdbID": "tt6133130",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTcyMTQzMDIwNl5BMl5BanBnXkFtZTgwMTY1NjgzMzI@._V1_SX300.jpg"
+        }
+    ]
+}

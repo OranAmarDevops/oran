@@ -1,0 +1,50 @@
+import random
+
+"""
+This script is for me to practice random function using a "rock, paper, scissors" game
+the client is playing against the computer
+the program will determine the winner based the standard game rules
+"""
+
+options=["rock", "paper", "scissors"]
+print("this is rock, paper, scissors game")
+for each in options:
+    my_choice=input("You playing against the Computer, Choose between rock, paper, scissors: ")
+    computer_choice = random.choice(options)
+    print(f"Computer chose: {computer_choice}")
+    if (my_choice=="paper" and computer_choice=="rock"):
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("You won! Paper covers Rock.")
+        break
+    elif (my_choice=="rock" and computer_choice=="paper"):
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("Computer won! Paper covers Rock.")
+        break
+    elif (my_choice=="scissors" and computer_choice=="paper"):
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("You won! scissors covers paper.")
+        break
+    elif (my_choice=="scissors" and computer_choice=="paper"):
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("Computer won! scissors covers paper.")
+        break
+    elif (my_choice=="scissors" and computer_choice=="rock"):
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("Computer won! rock covers scissors.")
+        break
+    elif (my_choice=="rock" and computer_choice=="scissors"):
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("You won! rock covers scissors.")
+        break
+    else:
+        print(f"You chose: {my_choice}")
+        print(f"Computer chose:: {computer_choice}")
+        print("It's a tie! ")
+        
+    

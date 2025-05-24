@@ -1,0 +1,62 @@
+import random
+
+"""
+This script is for me to practice a class function for bank account management
+return:
+-first name las name
+-holder address
+-account number randomized
+-account running balance
+-account currency(default to USD)
+"""
+
+class BankAccount:
+    def __init__(self, name, address):
+        self.name = name
+        self.address = address
+        self.number = random.randrange(10000000, 999999999)
+        self.balance=0.0
+        self.currency='USD'
+        
+    def deposit(self, amount, currency):
+        if amount <= 0:
+            return False
+        if currency != self.currency:
+            print(f"currency mismatch expected {self.currency}, got {currency}")
+            return False
+        
+        self.balance += amount
+        return True
+        
+        
+    def withdraw(self, amount, currency):
+        if amount <= 0:
+            return False
+        if currency != self.currency:
+            print(f"currency mismatch expected {self.currency}, got {currency}")
+            return False
+        if amount > self.balance:
+            print("Insufficient funds.")
+            return False
+        
+        self.balance += amount
+        return True
+        
+    def balance(self):
+        return f"{self._balance} {self._currency}"
+    
+
+# יצירת חשבון בנק חדש
+account = BankAccount("David Levi", "Tel Aviv")
+
+print(f"Account created for {account.name}")
+print(f"Account number: {account.number}")
+print(f"Initial balance: {account.balance} {account.currency}")
+
+# הפקדה
+account.deposit(1000, "USD")
+print(f"Balance after deposit: {account.balance} {account.currency}")
+
+# ניסיון משיכה
+account.withdraw(200, "USD")
+print(f"Balance after withdrawal: {account.balance} {account.currency}")

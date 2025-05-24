@@ -1,0 +1,30 @@
+import random
+
+"""
+This script is for me to practice random function using a game guessing
+the client is trying to guess between 1 to 100
+the program will inform the user whether the guess is low or high
+and it the end display the number of attemps
+"""
+
+num_computer= random.randrange(1, 100)
+attempts = 0
+for each in range (1, 100):
+    num_client=int(input("Enter a number between 1 and 100: "))
+    if not(1 <= num_client <= 100):
+        print("Number must be between 1 and 100. Try again.")
+        attempts += 1
+        continue
+    else:
+        print(f"you choose: {num_client}")
+    if (num_computer==num_client):
+        attempts += 1
+        print("That's correct!")
+        print(f"you guessed: {attempts} times")
+        break
+    elif (num_computer<num_client):
+        attempts += 1
+        print("try lower number")
+    else:
+        print("try higher number")
+        attempts += 1
