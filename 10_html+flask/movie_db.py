@@ -3,6 +3,13 @@ import json
 import os
 import requests
 
+"""
+  A simple Flask web app that lets users search for movies using a form. 
+  It fetches results from the OMDb API via RapidAPI and displays them on the page. 
+  To save API calls, search results are stored locally in a JSON file. 
+  The app also includes a button to clear the displayed results and provides a basic frontend using HTML and JavaScript. *
+"""
+
 search_file = 'search.json'
 app = Flask(__name__)
 
